@@ -7,8 +7,8 @@ import { CheckCircle } from "@phosphor-icons/react";
 import React, { useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 
-const TITLE = "Welcome to AnythingLLM";
-const DESCRIPTION = "Help us make AnythingLLM built for your needs. Optional.";
+const TITLE = "Welcome to Sedata";
+const DESCRIPTION = "Help us make Sedata built for your needs. Optional.";
 
 async function sendQuestionnaire({ email, useCase, comment }) {
   if (import.meta.env.DEV) {
